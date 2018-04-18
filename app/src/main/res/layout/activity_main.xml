@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg"
+    android:background="@mipmap/backgroundfinal"
     tools:context="com.example.ksharma.stopfinder_new.MainActivity">
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -13,7 +13,10 @@
         android:id="@+id/mainl"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.example.ksharma.stopfinder.activity.MainActivity">
+        tools:context="com.example.ksharma.stopfinder.activity.MainActivity"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="127dp"
+        tools:ignore="MissingConstraints">
 
 
         <TextView
@@ -22,12 +25,12 @@
             android:layout_height="wrap_content"
             android:layout_above="@+id/list"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="11dp"
+            android:layout_marginBottom="13dp"
             android:fontFamily="sans-serif-condensed"
             android:text="BUS STOPS"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:textColor="@android:color/holo_red_dark"
+            android:textColor="@android:color/holo_orange_light"
             android:textSize="36sp"
             android:textStyle="bold" />
 
