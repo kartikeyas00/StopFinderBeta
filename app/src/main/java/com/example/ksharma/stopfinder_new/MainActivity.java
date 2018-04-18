@@ -46,9 +46,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        RelativeLayout rlayout = (RelativeLayout) findViewById(R.id.mainl);
-        rlayout.setOnClickListener(new OnClickListener() {
-            public void onClick(View v) {
+        //RelativeLayout rlayout = (RelativeLayout) findViewById(R.id.mainl);
+        //rlayout.setOnClickListener(new OnClickListener() {
+            //public void onClick(View v) {
                 // Acquire a reference to the system Location Manager
                 LocationManager locationManager = (LocationManager) MainActivity.this.getSystemService(Context.LOCATION_SERVICE);
                 // Define a listener that responds to location updates
@@ -76,11 +76,11 @@ public class MainActivity extends AppCompatActivity {
 
                 new GetContacts().execute();
             }
-        });
 
 
 
-    }
+
+
 
 
 
