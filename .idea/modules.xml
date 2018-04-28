@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Stopfindernew.iml" filepath="$PROJECT_DIR$/Stopfindernew.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StopFinderBeta.iml" filepath="$PROJECT_DIR$/StopFinderBeta.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

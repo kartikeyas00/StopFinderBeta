@@ -1,5 +1,7 @@
 package com.example.ksharma.stopfinder_new;
-
+/**
+ * Created by ksharma on 3/11/18.
+ */
 import android.Manifest;
 import android.accessibilityservice.AccessibilityService;
 import android.annotation.SuppressLint;
@@ -62,7 +64,6 @@ public class MainActivity extends AppCompatActivity implements
     String lat = "";
     String lon = "";
     String url = "";
-    TextView _latitude;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -79,6 +80,14 @@ public class MainActivity extends AppCompatActivity implements
             Toast.makeText(this, "Not Connected!", Toast.LENGTH_SHORT).show();
     }
 
+
+/**
+    protected void onListItemClick(ListView l, View v, int position, long id) {
+        // TODO Auto-generated method stub
+        super.onListItemClick(l, v, position, id);
+        String clickedItem = (String) adapter.getItemAtPosition(position);
+    }
+**/
     protected void onStop() {
         mGoogleApiClient.disconnect();
         super.onStop();
